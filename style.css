@@ -1,0 +1,59 @@
+.gradient-background {
+    background: linear-gradient(300deg, #20003e, #180445, #2b004c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    width: 100%;
+  }
+.header{
+    position: absolute;
+    margin-top: 500px;
+    display: inline-block;
+    margin-left: 250px;
+
+}
+.second-page{
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+.features{
+    background-color:#020912 ;
+}
+
+.features{
+display: flex;
+padding: 40px 10px 40px 10px;
+justify-content: center;
+align-content: center;
+color: aliceblue;
+}
+.bottom-container {
+    text-align: center;
+    background-color: rgb(2, 2, 2);
+    padding: 50px 0 20px;
+}
+#myCarousel{
+    background: linear-gradient(300deg, #20003e, #180445, #2b004c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+body > section.first.gradient-background > div > div > div:nth-child(2) > h1{
+
+    color: white;
+}
+.txt1{
+    font-size: 56px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+.txt2{
+    font-size:42px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+.my-img1{
+    border-radius: 50%;
+}
+.footer{
+    font-size: 24px;
+}
+.footer  a{
+    padding: 10px;
+}
+
